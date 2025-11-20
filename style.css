@@ -43,7 +43,6 @@ body {
 .profile-container{
     text-align: center;
     color: var(--text-color);
-    margin-bottom: 20px;
 }
 
 .name-text{
@@ -52,7 +51,7 @@ body {
 }
 
 .location-text{
-    margin-top: 5px;
+    margin-top: 0;
     font-weight: 600;
     color:var(--contrast-color);
 }
@@ -80,7 +79,7 @@ body {
     border-radius: 0.5rem;
     text-align: center;
     padding: 1rem;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 .media-links-container__item:hover{
     background: var(--contrast-color);
